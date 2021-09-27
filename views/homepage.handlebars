@@ -4,8 +4,11 @@
 <h2>Please Register or Login</h2>
 
 {{/unless}}
+
 <br>
 <br>
+
+{{#if loggedIn}}
 
 
 <ol class="post-list">
@@ -28,3 +31,6 @@
     </li>
     {{/each}}
 </ol>
+
+{{/if}}
+
