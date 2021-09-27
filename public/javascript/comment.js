@@ -38,6 +38,7 @@ async function deleteCommentHandler(commentID) {
 
   if (response.ok) {
     document.location.replace(`/post/${id}`);
+    document.location.reload();
   } else {
     alert(response.statusText);
   }
