@@ -8,6 +8,7 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+
 }
 
 a {
@@ -15,6 +16,12 @@ a {
   color: #225ca3;
   font-weight: bold;
   transition: color .1s;
+}
+
+.navlinks {
+  margin-left: 10px;
+  text-align: center;
+ 
 }
 
 a:hover {
@@ -30,6 +37,7 @@ button {
   transition: background-color .1s;
   cursor: pointer;
   border-radius: 5px;
+  margin: 5px;
 }
 
 button:hover {
@@ -59,10 +67,12 @@ textarea {
 
 form > div {
   margin-bottom: 2%;
+  
 }
 
 form label {
   display: block;
+  
 }
 
 .wrapper {
@@ -144,6 +154,7 @@ main {
 
 .comment-form {
   margin-bottom: 5%;
+ 
 }
 
 .comment {
@@ -175,4 +186,10 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+}
+
+
+::marker {
+  font-size: 19px;
+  font-weight: bold;
 }

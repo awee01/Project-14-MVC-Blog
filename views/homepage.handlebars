@@ -1,16 +1,26 @@
+<h1>Welcome to the Tech Blog</h1>
+<h2>Please Register or Login</h2>
+
+<br>
+<br>
+
+
 <ol class="post-list">
     {{#each posts}}
     <li>
         <article class="post">
+
             <div class="title">
                 <h3>{{title}}</h3>
                 <p>{{post_text}}</p>
             </div>
+
             <div class="meta">
-                Created by {{user.username}} on
-                {{created_at}}
-                 <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+                Created by {{user.username}} on {{created_at}}
+
+
             </div>
+
         </article>
     </li>
     {{/each}}
