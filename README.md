@@ -16,4 +16,4 @@ http://localhost:3001/
 Screenshot: ![image](https://user-images.githubusercontent.com/85651950/134831464-2036d885-0fda-462d-a359-4c330cc42b79.png)
 
 
-Heroku Deployed app:
+Heroku Deployed app: https://damp-oasis-01774.herokuapp.com/
