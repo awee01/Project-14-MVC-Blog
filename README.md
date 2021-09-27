@@ -1,6 +1,6 @@
 # Project-14-MVC-Blog
 
-This is a tech blog where users can create posts. Posts are displayed on the homepage and information is displayed about who created the post and when.
+This is a tech blog where users can create posts. Posts are displayed on the homepage and information is displayed about who created the post and when. Users can only see posts when logged in.
 
 Users are asked to create a new account with a new password. Once that is done, users can login with their new account. Duplicate accounts are not allowed.
 
