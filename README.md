@@ -13,7 +13,8 @@ Use the top navigation bar to move around the website.
 Download the file manually and navigate to the root folder and run: npm start. 
 http://localhost:3001/
 
-Screenshot: ![image](https://user-images.githubusercontent.com/85651950/134831464-2036d885-0fda-462d-a359-4c330cc42b79.png)
+Screenshot: ![image](https://user-images.githubusercontent.com/85651950/134860626-8126db39-0197-4cb5-bee7-219aa441a23d.png)
+
 
 
 Heroku Deployed app: https://damp-oasis-01774.herokuapp.com/
