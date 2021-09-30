@@ -1,4 +1,5 @@
 <div class='single-post'>
+
 {{> post-info post}}
 
 {{#if loggedIn}}
@@ -17,7 +18,9 @@
 {{/if}}
 
 {{> comments post.comments}}
+
 </div>
+
 {{#if loggedIn}}
   <script src="/javascript/comment.js"></script>
 {{/if}}
