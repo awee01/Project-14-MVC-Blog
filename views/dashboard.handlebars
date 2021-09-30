@@ -20,18 +20,24 @@
 
 {{#if posts.length}}
 <div>
-  <h2>Your Posts</h2>
+
+<h2>Your Posts</h2>
+  
   <ol>
+  
     {{#each posts as |post|}}
     
-    <li>
-      {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-    </li>
+   <li>
+    {{> post-info post}}
+    <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+   </li>
     
     {{/each}}
+    
   </ol>
+  
 </div>
+
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
